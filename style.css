@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+    font-family: 'Lobster', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ffeede;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:  100%;
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+    margin: 1rem;
+}
+.textArea{
+    display: inline-block;
+    padding: 1rem 1rem;
+    background-color: none;
+    opacity: .8;
+    color: black;
+    font-size: 30px;
+}
+a{
+  text-decoration: none;
+  color: #e24848;  
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    cursor: pointer;
+    padding: 20px;
+    color: white;
+    background-color: #e24848;
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 20px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: #331717;
+    transition: 0.3s all ease-in;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Happy Birthday</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
+    <link rel="stylesheet" href="cakestyle.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <audio src="hbd audio.mp3" autoplay type="audio/mpeg" id="hbd-song" loop></audio>
+    <div class="candle-count-display">
+      Candles on the Cake: <span id="candleCount">0</span>
+    </div>
+    <div class="content-wish" >
+      HAPPY BIRTHDAY MA, I HOPE YOUR WISH WILL COME TRUE !
+    </div>
+    <div class="cake">
+      <div class="plate"></div>
+      <div class="layer layer-bottom"></div>
+      <div class="layer layer-middle"></div>
+      <div class="layer layer-top"></div>
+      <div class="icing"></div>
+      <div class="drip drip1"></div>
+      <div class="drip drip2"></div>
+      <div class="drip drip3"></div>
+    </div>
+    <div class="screen">
+      <audio src="celebrate.mp3" type="audio/mpeg" id="celebrate-sound"></audio>
+      <audio src="clap.mp3" type="audio/mpeg" id="clap-sound"></audio>
+      <div class="fireG" style="--bars: 18;">
+          <div class="fireCrBr" style="--barNumber: 1">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 2">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 3">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 4">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 5">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 6">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 7">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 8">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 9">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 10">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 11">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 12">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 13">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 14">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 15">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 16">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 17">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 18">
+              <div class="fireCr"></div>
+          </div>
+      </div>
+
+      <div class="fireG" style="--bars: 18;">
+          <div class="fireCrBr" style="--barNumber: 1">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 2">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 3">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 4">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 5">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 6">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 7">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 8">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 9">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 10">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 11">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 12">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 13">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 14">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 15">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 16">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 17">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 18">
+              <div class="fireCr"></div>
+          </div>
+      </div>
+
+      <div class="fireG" style="--bars: 18;">
+          <div class="fireCrBr" style="--barNumber: 1">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 2">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 3">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 4">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 5">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 6">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 7">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 8">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 9">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 10">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 11">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 12">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 13">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 14">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 15">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 16">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 17">
+              <div class="fireCr"></div>
+          </div>
+
+          <div class="fireCrBr" style="--barNumber: 18">
+              <div class="fireCr"></div>
+          </div>
+      </div>
+  </div>
+
+    <script src="cakescript.js"></script>
+  </body>
+</html>
